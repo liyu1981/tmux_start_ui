@@ -4,6 +4,37 @@ A mouse-friendly `tmux` configuration that adds interactive menus for common tas
 
 ![Usage Demo](./tmux_start_ui_usage.gif)
 
+## Installation
+
+### Method 1: Clone and Source (Recommended)
+This method allows you to keep the configuration updated by simply pulling the latest changes from the repository.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tmux-start-ui.git ~/tmux-start-ui
+   ```
+2. Source the `tmux.conf` file in your main `~/.tmux.conf`:
+   ```tmux
+   source-file ~/tmux-start-ui/tmux.conf
+   ```
+3. Reload your tmux configuration:
+   ```bash
+   tmux source-file ~/.tmux.conf
+   ```
+
+### Method 2: Copy and Append
+If you prefer to have everything in one file, you can append the configuration to your existing `~/.tmux.conf`.
+
+1. Append the contents to your `~/.tmux.conf`:
+   ```bash
+   cat tmux.conf >> ~/.tmux.conf
+   ```
+2. Reload your tmux configuration:
+   ```bash
+   tmux source-file ~/.tmux.conf
+   ```
+   *Or use the "Reload Config" option from the UI!*
+
 ## Features
 
 - **Mouse Support**: Enable scrolling, pane selection, and resizing with the mouse.
@@ -22,15 +53,6 @@ The interactive menus provide quick shortcuts for:
 - Config Reloading
 - Detaching and Killing sessions
 
-## Installation
+## License
 
-1. Clone this repository or copy the `.tmux.conf` file.
-2. Append the contents to your `~/.tmux.conf` or replace it:
-   ```bash
-   cp .tmux.conf ~/.tmux.conf
-   ```
-3. Reload your tmux configuration:
-   ```bash
-   tmux source-file ~/.tmux.conf
-   ```
-   *Or use the menu option in the UI!*
+MIT
