@@ -6,12 +6,18 @@ A mouse-friendly `tmux` configuration that adds interactive menus for common tas
 
 ## Installation
 
+### Quick One-Line Installation
+Run the following command to download and run the installation script, which clones the repository to `~/.tmux-start-ui` and updates your `~/.tmux.conf`:
+```bash
+curl -sL https://raw.githubusercontent.com/liyu1981/tmux-start-ui/main/install.sh | bash
+```
+
 ### Method 1: Clone and Source (Recommended)
 This method allows you to keep the configuration updated by simply pulling the latest changes from the repository.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tmux-start-ui.git ~/tmux-start-ui
+   git clone https://github.com/liyu1981/tmux-start-ui.git ~/tmux-start-ui
    ```
 2. Source the `tmux.conf` file in your main `~/.tmux.conf`:
    ```tmux
@@ -56,3 +62,6 @@ The interactive menus provide quick shortcuts for:
 ## License
 
 MIT
+
+---
+**Keywords**: tmux, terminal-ui, productivity, mouse-support, configuration, interactive-menu, dev-tools
