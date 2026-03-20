@@ -17,11 +17,11 @@ This method allows you to keep the configuration updated by simply pulling the l
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/liyu1981/tmux-start-ui.git ~/tmux-start-ui
+   git clone https://github.com/liyu1981/tmux_start_ui.git ~/tmux_start_ui
    ```
 2. Source the `tmux.conf` file in your main `~/.tmux.conf`:
    ```tmux
-   source-file ~/tmux-start-ui/tmux.conf
+   source-file ~/tmux_start_ui/tmux.conf
    ```
 3. Reload your tmux configuration:
    ```bash
