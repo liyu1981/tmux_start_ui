@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 
-REPO_URL="https://github.com/yourusername/tmux-start-ui.git"
-INSTALL_DIR="$HOME/.tmux-start-ui"
+REPO_URL="https://github.com/liyu1981/tmux_start_ui.git"
+INSTALL_DIR="$HOME/.tmux_start_ui"
 
-echo "Cloning tmux-start-ui to $INSTALL_DIR..."
+echo "Cloning tmux_start_ui to $INSTALL_DIR..."
 if [ -d "$INSTALL_DIR" ]; then
     echo "Directory $INSTALL_DIR already exists. Updating..."
     cd "$INSTALL_DIR" && git pull
