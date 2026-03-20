@@ -9,7 +9,7 @@ A mouse-friendly `tmux` configuration that adds interactive menus for common tas
 ### Quick One-Line Installation
 Run the following command to download and run the installation script, which clones the repository to `~/.tmux-start-ui` and updates your `~/.tmux.conf`:
 ```bash
-curl -sL https://raw.githubusercontent.com/liyu1981/tmux-start-ui/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/liyu1981/tmux_start_ui/main/install.sh | bash
 ```
 
 ### Method 1: Clone and Source (Recommended)
